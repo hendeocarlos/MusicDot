@@ -1,9 +1,9 @@
 body{
-    font-family:'Courier New', Courier, monospace;
+    font-family: Helvetica, sans-serif;
 }
 p{
-    text-align: center;
-    text-decoration: underline;
+    text-align: justify;
+    text-decoration: none;
 }
 h1{
     color: #3D3D3D;
@@ -12,6 +12,8 @@ h1{
 h2{
     border-bottom: 2px solid black;
 }
-img{
-    image-orientation: flip;
+figure{
+    text-align: center;
+    background-color: whitesmoke;
+    color: lightgrey;
 }
