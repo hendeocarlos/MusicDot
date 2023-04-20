@@ -19,11 +19,20 @@ h2{
 figure{
     text-align: center;
     background-color: whitesmoke;
-    color: lightgrey;
     padding: 15px;
     margin: 30px;
 }
 figcaption{
     padding-top: 10px;
     color: grey;
+}
+.MatrizMusicDot{
+    width: 550px;
+    
+}
+.FamiliaTupfeln{
+    width: 250px;
+}
+figure img{
+    width:100%;
 }
