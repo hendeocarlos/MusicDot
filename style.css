@@ -39,9 +39,31 @@ figure img{
 #Correspondencias{
     font-style: italic;
 }
-div#1{
-    display: inline-block;
+#name{
+    width: 500px;
+    height:30px;
+    margin: 10px 0;
 }
-div#2{
-    display: inline-block;
+#phone{
+    width: 500px;
+    height: 30px;
+    margin: 10px 0;
+}
+#e_mail{
+    width: 500px;
+    height: 30px;
+    margin: 10px 0;
+}
+#message{
+    width: 500px;
+    height: 300px;  
+    margin: 10px 0;
+}
+.button{
+    width: 100px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 10px;
 }
