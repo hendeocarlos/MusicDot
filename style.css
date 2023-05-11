@@ -8,19 +8,19 @@ p{
     text-align: justify;
     text-decoration: none;
 }
-h1{
+.Titulo{
     color: #3D3D3D;
     background-color: #E1EDF2;
     padding: 10px;
 }
-h2{
+#historia, #diferenciais{
     border-bottom: 2px solid black;
 }
-figure{
+figure {
     text-align: center;
     background-color: whitesmoke;
     padding: 15px;
-    margin: 30px;
+    margin: auto;
 }
 figcaption{
     padding-top: 10px;
@@ -28,36 +28,31 @@ figcaption{
 }
 .MatrizMusicDot{
     width: 550px;
-    
 }
 .FamiliaTupfeln{
     width: 250px;
 }
 figure img{
     width:100%;
+    text-align: center;
 }
 #Correspondencias{
-    font-style: italic;
+    margin-left: 30px;
 }
-#name{
+dl{
+    margin-left: 30px;
+}
+dd{
+    color: blue;
+}
+form div{
+    padding: 10px;
+}
+.campo-formulario{
     width: 500px;
     height:30px;
-    margin: 10px 0;
-}
-#phone{
-    width: 500px;
-    height: 30px;
-    margin: 10px 0;
-}
-#e_mail{
-    width: 500px;
-    height: 30px;
-    margin: 10px 0;
-}
-#message{
-    width: 500px;
-    height: 300px;  
-    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button{
     width: 100px;
