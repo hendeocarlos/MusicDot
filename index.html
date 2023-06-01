@@ -1,27 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://hendeocarlos.github.io/MusicDot/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
     <title>MusicDot</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>
-        MusicDot
-    </h1>
-    <h2>
-        Bem-vindo à MusicDot, seu portal de cursos de música online.
-    </h2>
-    <ul>
-        <li>Confira nossas promoções.</li>
-        <li>Receba informações sobre nossos lançamentos por email.</li>
-        <li>Navegue por todos nossos cursos disponíveis.</li>
-        <li>Aprenda sem sair de casa.</li>
-        <li><a href="https://hendeocarlos.github.io/MusicDot/sobre.html">Sobre a Empresa</a>
-    </ul>
-    <a href="index.html">Página Inicial</a>
+    <header class="cabecalho">
+        <img src="https://hendeocarlos.github.io/MusicDot/logo.svg" alt="logo">
+        <nav>
+        <ul>
+            <li><a href="https://hendeocarlos.github.io/MusicDot/contato.html">Contato</a></li>
+            <li><a href="#">Entrar</a></li>
+            <li><a href="#">Matricule-se</a></li>
+        </ul>
+        </nav>
+    </header>
+    </nav>
+    <main>
+        <button onclick="windows.exibePopup">Abrir</button>
+    </main>
+    <footer>
+        Conteúdo do footer
+    </footer>
+    <script type="text/javascript">
+        //<![CDATA[[
+        /*Script de Boas-vindas*/
+        function exibePopup(){
+            let NOME; //Declaração de Variável
+            NOME = window.prompt ('Entre com seu nome:', 'Digite-o aqui: ');
+            window.document.write ('Oi ' + NOME + ' esteja a vontade' );
+        }
+        
+        //]]>
+    </script>
 </body>
 </html>
