@@ -48,7 +48,7 @@ dd{
 form div{
     padding: 10px;
 }
-.campo-formulario{
+.entrada-formulario{
     width: 500px;
     height:30px;
     margin-left: auto;
@@ -62,4 +62,3 @@ form div{
     font-weight: bold;
     margin-top: 10px;
 }
-
